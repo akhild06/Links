@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:ital,wght@0,100;1,100&family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+*{
+   /* font-family: 'Lumanosimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;*/
+}
+.col-12{
+    font-family: 'Times New Roman', Times, serif;   
+}  
+.full-width-paragraph {
+    width: 100%; /* Set the width to 100% */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.p{
+    width: 100%; /* Set the width to 100% */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background: linear-gradient(45deg, );
+    color: rgb(247, 245, 245);
+}
+
+.form {
+    text-align: center; 
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.bannerTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+
+}
+.bannerDesc {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-reference {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 426px) {
+    .footer-reference a {
+        font-size: 24px;
+    }
+
+    #gradientName {
+        display: block;
+        background: linear-gradient(45deg, red, yellow, violet);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-: text;
+
+    }
+}
+.container-fluid{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}    
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}    
+.navbar-collapse{
+    font-family: 'Times New Roman', Times, serif;   
+}  
+.text-center {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+      
+}   
+.footer-reference a {
+    text-decoration: none;
+    background: linear-gradient(45deg, );
+    color: rgb(247, 245, 245);
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.github::before {
+    color: #ffffff;
+    background-color: #211F1F;
+    border-radius: 50px;
+}
+
+.linkedin::before {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 0;
+}
+
+@media (min-width: 992px) {
+    .h-lg-85 {
+        height: 85vh !important;
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    outline: grey;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+#gradientName {
+    background: linear-gradient(45deg, red, yellow, violet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background: text;
+    
+}
+
+.companyLogo {
+    background-size: cover;
+    max-width: 140px;
+    border: 2px solid grey;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.companyHrLine {
+    border: 3px solid rgb(10, 10, 10);
+    border-radius: 50px;
+}
+
+.indoSyncLogo {
+    background-size: cover;
+    max-width: 300px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.projectIcon {
+    font-size: 28px;
+    cursor: pointer;
+}
